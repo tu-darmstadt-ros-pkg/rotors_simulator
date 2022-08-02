@@ -23,6 +23,7 @@ project(rotors_gazebo_plugins)
 # ========================== SET DEFAULTS FOR PASSED-IN VARIABLES =============================== #
 # =============================================================================================== #
 
+set(BUILD_OCTOMAP_PLUGIN TRUE)
 if(NOT DEFINED BUILD_OCTOMAP_PLUGIN)
   message(STATUS "BUILD_OCTOMAP_PLUGIN variable not provided, setting to FALSE.")
   set(BUILD_OCTOMAP_PLUGIN FALSE)
